@@ -116,7 +116,7 @@ export default function Hero() {
       gsap.to(bgElement2Ref.current, {
         x: -40,
         y: 30,
-        duration: 10,
+        duration: 4,
         ease: "power1.inOut",
         yoyo: true,
         repeat: -1,
@@ -124,7 +124,7 @@ export default function Hero() {
 
       gsap.to(floatingElement1Ref.current, {
         y: -20,
-        x: 10,
+        x: +30,
         duration: 4,
         ease: "power1.inOut",
         yoyo: true,
@@ -132,7 +132,7 @@ export default function Hero() {
       });
 
       gsap.to(floatingElement2Ref.current, {
-        y: 20,
+        y: -20,
         x: -30,
         duration: 5,
         ease: "power1.inOut",
@@ -360,7 +360,7 @@ export default function Hero() {
 
         <div
           ref={floatingElement1Ref}
-          className="absolute top-36 left-0 w-4 h-4 rounded-full opacity-60"
+          className="absolute bottom-36 left-0 w-4 h-4 rounded-full opacity-60"
           style={{ backgroundColor: "#e30613" }}
         />
         <div
