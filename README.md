@@ -1,12 +1,89 @@
-# React + Vite
+# DMI Hero Section
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a React component for a landing page hero section. The component uses GSAP for animations, Lucide-react for icons, and Tailwind CSS for styling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **React**: Component-based UI
+- **GSAP**: Animations and transitions
+- **Lucide-react**: SVG icons
+- **Tailwind CSS**: Utility-first CSS framework
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- Animated entrance for logo, text, and buttons
+- Floating and background element animations
+- Custom animated cursor that follows mouse movement
+- Interactive button effects on hover and click
+- Responsive layout using Tailwind CSS
+
+---
+
+## Getting Started
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/your-username/dmi-hero-section.git
+   cd dmi-hero-section
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
+
+---
+
+## Usage
+
+- Import the `Hero` component in your React project:
+
+  ```jsx
+  import Hero from "./Hero";
+
+  function App() {
+    return;
+  }
+  ```
+
+- Update text, colors, and icons as needed for your project.
+
+---
+
+## Folder Structure
+
+```
+/src
+  └─ Hero.jsx
+  └─ index.js
+  └─ ...
+```
+
+---
+
+## Customization
+
+- Change logo text and color in the JSX.
+- Edit animation durations and effects in the `useEffect` hook.
+- Adjust Tailwind classes for layout and color changes.
+
+---
+
+## License
+
+MIT License
+
+---
+
+This component is suitable for assignments or as a starting point for landing pages using React, GSAP, and Tailwind CSS.
