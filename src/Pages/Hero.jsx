@@ -288,7 +288,7 @@ export default function Hero() {
 
         <h1
           ref={headlineRef}
-          className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold mb-6 leading-tight flex"
+          className="text-5xl md:text-6xl  lg:text-7xl xl:text-8xl font-extrabold mb-6 leading-tight flex justify-center"
           style={{ fontFamily: "Inter, system-ui, sans-serif" }}
         >
           <p className="text-gray-900">
