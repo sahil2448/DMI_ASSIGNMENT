@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { Play, Users } from "lucide-react";
+import { Play, Users, Blend } from "lucide-react";
 
 export default function Hero() {
   const containerRef = useRef(null);
