@@ -20,6 +20,8 @@ This repository contains a React component for a landing page hero section. The 
 - Custom animated cursor that follows mouse movement
 - Interactive button effects on hover and click
 - Responsive layout using Tailwind CSS
+- Update text, colors, and icons as needed for your project.
+
 
 ---
 
@@ -28,8 +30,8 @@ This repository contains a React component for a landing page hero section. The 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/dmi-hero-section.git
-   cd dmi-hero-section
+   git clone https://github.com/sahil2448/DMI_ASSIGNMENT.git
+   cd DMI_ASSIGNMENT
    ```
 
 2. **Install dependencies**
@@ -57,7 +59,6 @@ This repository contains a React component for a landing page hero section. The 
   }
   ```
 
-- Update text, colors, and icons as needed for your project.
 
 ---
 
@@ -65,25 +66,12 @@ This repository contains a React component for a landing page hero section. The 
 
 ```
 /src
-  └─ Hero.jsx
-  └─ index.js
-  └─ ...
+  └─ Pages
+        └─ Hero.jsx
+  └─ App.jsx
+  └─ App.css
+  └─ index.css
+  └─ Other stuff
 ```
 
 ---
-
-## Customization
-
-- Change logo text and color in the JSX.
-- Edit animation durations and effects in the `useEffect` hook.
-- Adjust Tailwind classes for layout and color changes.
-
----
-
-## License
-
-MIT License
-
----
-
-This component is suitable for assignments or as a starting point for landing pages using React, GSAP, and Tailwind CSS.
